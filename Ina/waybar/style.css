@@ -2,7 +2,7 @@
     border: none;
     font-family: Font Awesome, Roboto, Arial, sans-serif;
     font-size: 13px;
-    color: #a399ff;
+    color: #c599ff;
     border-radius: 20px;
 }
 /*
@@ -15,29 +15,29 @@ window#waybar {
 }
 /*-----module groups----*/
 .modules-right {
-    background-color: rgb(17, 14, 38);
+    background-color: rgb(34, 26, 66);
     margin: 2px 10px 0 0;
 }
 .modules-center {
-    background-color: rgb(17, 14, 38);
+    background-color: rgb(34, 26, 66);
     margin: 2px 0 0 0;
 }
 .modules-left {
-    background-color: rgb(17, 14, 38);
+    background-color: rgb(34, 26, 66);
     margin: 2px 0 0 5px;
 }
 /*-----modules indv----*/
 #workspaces button {
     padding: 1px 5px;
-    background-color:rgb(17, 14, 38);
+    background-color:rgb(34, 26, 66);
 }
 #workspaces button:hover {
     box-shadow: inherit;
-    background-color: rgb(17, 14, 38);
+    background-color: rgb(34, 26, 66);
 }
 
 #workspaces button.focused {
-    background-color: rgb(17, 14, 38);
+    background-color: rgb(34, 26, 66);
 }
 
 #clock,
@@ -60,7 +60,7 @@ window#waybar {
     font-weight: bold;
 }
 #custom-power {
-    background-color: rgba(7, 0, 15, 0.945);
+    background-color: rgba(26, 2, 54, 0.945);
     border-radius: 50px;
     margin: 5px 5px;
     padding: 1px 3px;
