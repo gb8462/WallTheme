@@ -1,1 +1,1 @@
-# Manually Configuring Your Wallpaper And Themes Sucks So I Automate It.
+## Manually Configuring Your Wallpaper And Themes Sucks So I Automate It.
