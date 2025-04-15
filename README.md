@@ -2,7 +2,7 @@
 
 <h2 align="center">Blues</h2>
 
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/45a760c1-30f3-427a-ad90-ed6c5687cd64)
 
 ___
 
