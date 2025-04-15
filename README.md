@@ -2,7 +2,7 @@
 
 <h2 align="center">Blues</h2>
 
-![alt text](image-1.png)
+![Uploading image.png…]()
 
 ___
 
