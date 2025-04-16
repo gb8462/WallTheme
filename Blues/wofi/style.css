@@ -20,14 +20,14 @@
 #window {
    animation-name: fadeIn;
    animation-duration: 0.4s;
-   background-color: rgba(2, 18, 41, 0.9);
+   background-color: rgb(5, 27, 58);
    font-size: 14;
 }
 
 #input {
    border: none;
    color: #a9b8ff;
-   background-color: rgba(3, 9, 17, 0.9);
+   background-color: rgb(14, 60, 119);
    border-radius: 10px;
    margin: 5px 5px 5px 5px;
    padding: 8px;
