@@ -10,10 +10,12 @@ if [ "$Themes" == "1" ]; then
   cp -r /home/worm/Programming/WallTheme/Blues/waybar/* ~/.config/waybar
   cp -r /home/worm/Programming/WallTheme/Blues/hyprpaper.conf ~/.config/hypr/hyprpaper.conf
   sudo cp -r /home/worm/Programming/WallTheme/Blues/slick-greeter.conf /etc/lightdm/slick-greeter.conf
+  hyprctl dispatch exit
 elif [ "$Themes" == '2' ]; then
   cp -r /home/worm/Programming/WallTheme/Ina/waybar/* ~/.config/waybar
   cp -r /home/worm/Programming/WallTheme/Ina/hyprpaper.conf ~/.config/hypr/hyprpaper.conf
   sudo cp -r /home/worm/Programming/WallTheme/Ina/slick-greeter.conf /etc/lightdm/slick-greeter.conf
+  hyprctl dispatch exit
 else
   echo "invalid input"
 fi
