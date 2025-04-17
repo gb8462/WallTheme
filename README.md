@@ -1,4 +1,4 @@
-# Manually Configuring Your Wallpaper And Themes Sucks In Hyprland So I Automate It.
+## Manually Configuring Your Wallpaper And Themes Sucks In Hyprland So I Automate It.
 <h3 align="center">Blues</h3>
 
 ![image](https://github.com/user-attachments/assets/45a760c1-30f3-427a-ad90-ed6c5687cd64)
