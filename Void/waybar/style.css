@@ -2,7 +2,7 @@
     border: none;
     font-family: Font Awesome, Roboto, Arial, sans-serif;
     font-size: 13px;
-    color: #151316;
+    color: #1d1d1d;
     border-radius: 20px;
 }
 /*
@@ -60,7 +60,8 @@ window#waybar {
     font-weight: bold;
 }
 #custom-power {
-    background-color: #c4c4c4;
+    background-color: #000000;
+    color: #ffffff;
     border-radius: 50px;
     margin: 5px 5px;
     padding: 1px 3px;
