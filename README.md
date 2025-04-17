@@ -1,5 +1,5 @@
 <div align="center">
-<h1>Made a script that automate setting up my wallpapers and other stuffs</h1>
+<h2>Made a script that automate setting up my wallpapers and other stuffs</h2>
 
 <h3>Blues</h3>
 
