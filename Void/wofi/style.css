@@ -11,7 +11,7 @@
 }
 
 #entry:selected {
-   background-color: rgb(15, 15, 15);
+   background-color: rgb(20, 20, 20);
    color: #f0e0ff;
    padding: 5px;
    outline-style: none;
@@ -20,14 +20,14 @@
 #window {
    animation-name: fadeIn;
    animation-duration: 0.4s;
-   background-color: rgb(15, 10, 19);
+   background-color: rgb(5, 5, 5);
    font-size: 14;
 }
 
 #input {
    border: none;
    color: #f0e0ff;
-   background-color: rgb(15, 15, 15);
+   background-color: rgb(20, 20, 20);
    border-radius: 10px;
    margin: 5px 5px 5px 5px;
    padding: 8px;
