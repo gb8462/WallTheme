@@ -8,6 +8,16 @@ clear
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 BASE_DIR="$SCRIPT_DIR"
 
+# Ensure /usr/share/wallpaper exists
+if [ ! -d "/usr/share/wallpaper" ]; then
+  echo "📁 Creating /usr/share/wallpaper (needs sudo)..."
+  sudo mkdir -p /usr/share/wallpaper
+fi
+
+# Copy wallpapers from theme folder
+echo "📦 Copying wallpapers..."
+sudo cp -ru "$BASE_DIR/Wallpaper/"* /usr/share/wallpaper/
+
 # Config paths
 WAYBAR="$HOME/.config/waybar"
 WOFI="$HOME/.config/wofi"
