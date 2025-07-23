@@ -8,15 +8,17 @@ clear
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 BASE_DIR="$SCRIPT_DIR"
 
-# Ensure /usr/share/wallpaper exists
-if [ ! -d "/usr/share/wallpaper" ]; then
-  echo "📁 Creating /usr/share/wallpaper (needs sudo)..."
-  sudo mkdir -p /usr/share/wallpaper
-fi
+WALLPAPER_SRC="$BASE_DIR/Wallpaper"
+WALLPAPER_DEST="/usr/share/wallpaper"
 
-# Copy wallpapers from theme folder
-echo "📦 Copying wallpapers..."
-sudo cp -ru "$BASE_DIR/Wallpaper/"* /usr/share/wallpaper/
+# Check if /usr/share/wallpaper doesn't exist or contents differ
+if [ ! -d "$WALLPAPER_DEST" ] || ! diff -qr "$WALLPAPER_SRC" "$WALLPAPER_DEST" > /dev/null 2>&1; then
+  echo "🖼️ Syncing wallpapers to /usr/share/wallpaper (requires sudo)..."
+  sudo mkdir -p "$WALLPAPER_DEST"
+  sudo rsync -a --delete "$WALLPAPER_SRC/" "$WALLPAPER_DEST/"
+else
+  echo "✅ Wallpapers are already up to date."
+fi
 
 # Config paths
 WAYBAR="$HOME/.config/waybar"
