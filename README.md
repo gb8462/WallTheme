@@ -1,3 +1,5 @@
+# Planning on creating a GUI for this. (Coming Soon)
+
 <div align="center">
 <h2>Made a script that automate setting up my wallpapers and other stuffs</h2>
 
