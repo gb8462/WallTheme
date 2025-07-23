@@ -7,16 +7,22 @@
 
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/fd26cb32-6383-42ad-9a26-745ea27384c4" />
 
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/cf9aefd0-13b9-4e24-b2f8-a0fb26153614" />
+
 ___
 
 <h3>Dark</h3>
 
 <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/2f4211cf-7589-446a-a817-4793092d654a" />
 
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/80af9e24-a9ae-4715-a1d9-4adce316f7fb" />
+
 ___
 
 <h3>Ninomae Ina'nis</h3>
 
-![image](https://github.com/user-attachments/assets/b896442a-96ec-418b-a22c-87eb215ec55a)
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/ba1746a6-86a8-4619-87bd-0a86c8b5aa0f" />
+
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/8a547d04-4759-4b86-a1ad-debfaf54bb4b" />
 
 </div>
