@@ -4,8 +4,9 @@
 
 clear
 
-# Define theme base path
-BASE_DIR="/home/worm/Programming/WallTheme"
+# Define theme path
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+BASE_DIR="$SCRIPT_DIR"
 
 # Config paths
 WAYBAR="$HOME/.config/waybar"
