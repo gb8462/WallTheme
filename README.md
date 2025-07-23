@@ -17,6 +17,7 @@ ___
 
 <h3>Ninomae Ina'nis</h3>
 
-![image](https://github.com/user-attachments/assets/b896442a-96ec-418b-a22c-87eb215ec55a)
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/ba1746a6-86a8-4619-87bd-0a86c8b5aa0f" />
+
 
 </div>
