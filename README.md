@@ -1,7 +1,7 @@
-# Planning on creating a GUI for this. (Coming Soon)
-
 <div align="center">
-<h2>Made a script that automate setting up my wallpapers and other stuffs</h2>
+<h1>Planning on creating a GUI for this. (Update In progress)</h1>
+
+<h3>Made a script that automate setting up my wallpapers and other stuffs</h3>
 
 <h3>Blues</h3>
 
