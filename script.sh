@@ -42,6 +42,7 @@ read -p "Theme: " ThemeChoice
 # ======================
 # Function: Apply Theme
 # ======================
+
 apply_theme() {
   local THEME_DIR="$1"
 
@@ -77,6 +78,7 @@ apply_theme() {
 # =======================
 # Theme Selection Handler
 # =======================
+
 case "$ThemeChoice" in
   1) apply_theme "$BASE_DIR/Blues" ;;
   2) apply_theme "$BASE_DIR/Ina" ;;
