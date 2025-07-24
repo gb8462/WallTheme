@@ -1,28 +1,74 @@
-<div align="center">
-<h1>Planning on creating a GUI for this. (Update In progress)</h1>
+# 🌌 WallTheme - Hyprland Theme Switcher
 
-<h3>Made a script that automate setting up my wallpapers and other stuffs</h3>
+A personal theme switcher for Hyprland, built with Bash.  
+Automatically sets wallpapers, Waybar/Wofi themes, Alacritty config, and more.  
+GUI version coming soon!
 
-<h3>AnimeGirl</h3>
+## 🛠️ Installation
 
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/fd26cb32-6383-42ad-9a26-745ea27384c4" />
+1. Install required packages (Arch-based):
+    
+    ```bash
+    sudo pacman -S alacritty hyprpaper git rsync wofi waybar
+    ``` 
+2. Clone the repository:
+    
+    ```bash
+    git clone https://github.com/gb8462/WallTheme.git
+    cd WallTheme
+    ```
+3. Run the theme script:
+    ```bash
+    ./script.sh
+    ```
 
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/cf9aefd0-13b9-4e24-b2f8-a0fb26153614" />
+## ✨ Features
+📁 Auto-syncs wallpapers to /usr/share/wallpaper if missing or updated
 
-___
+🎯 Applies Hyprland, Waybar, Wofi, and Alacritty themes
 
-<h3>Dark</h3>
+🧠 Smart script checks for missing dependencies
 
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/2f4211cf-7589-446a-a817-4793092d654a" />
+💻 CLI-based menu interface (GUI in progress)
 
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/80af9e24-a9ae-4715-a1d9-4adce316f7fb" />
+⚡ Lightweight, minimal, fast
 
-___
 
-<h3>Ninomae Ina'nis</h3>
 
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/ba1746a6-86a8-4619-87bd-0a86c8b5aa0f" />
+## 🎨 Themes Preview
 
-<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/8a547d04-4759-4b86-a1ad-debfaf54bb4b" />
+### AnimeGirl
 
-</div>
+<img src="https://github.com/user-attachments/assets/fd26cb32-6383-42ad-9a26-745ea27384c4" width="600"/>
+
+---
+
+### Dark (Void)
+
+<img src="https://github.com/user-attachments/assets/2f4211cf-7589-446a-a817-4793092d654a" width="600"/>
+
+---
+
+### Ninomae Ina'nis
+
+<img src="https://github.com/user-attachments/assets/ba1746a6-86a8-4619-87bd-0a86c8b5aa0f" width="600"/>
+
+## 🚧 Roadmap
+
+- [x] CLI menu for theme selection  
+- [x] Dynamic config setup (Alacritty, Wofi, Waybar, Hypr)  
+- [x] Wallpaper sync/check logic  
+- [ ] GUI with theme previews  
+- [ ] More theme packs  
+- [ ] Better error messages and logging  
+
+## 📜 License
+This project is licensed under the MIT License, which means:
+
+✅ You can use, copy, modify, and share it
+
+🪪 Just keep the original copyright
+
+🔒 No warranty (you're using it at your own risk)
+
+See the full license here: MIT License on choosealicense.com
