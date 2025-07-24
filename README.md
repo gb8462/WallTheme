@@ -39,19 +39,19 @@ GUI version coming soon!
 
 ### AnimeGirl
 
-<img src="https://github.com/user-attachments/assets/fd26cb32-6383-42ad-9a26-745ea27384c4" width="600"/>
+<img src="https://github.com/user-attachments/assets/fd26cb32-6383-42ad-9a26-745ea27384c4" width="800"/>
 
 ---
 
 ### Dark (Void)
 
-<img src="https://github.com/user-attachments/assets/2f4211cf-7589-446a-a817-4793092d654a" width="600"/>
+<img src="https://github.com/user-attachments/assets/2f4211cf-7589-446a-a817-4793092d654a" width="800"/>
 
 ---
 
 ### Ninomae Ina'nis
 
-<img src="https://github.com/user-attachments/assets/ba1746a6-86a8-4619-87bd-0a86c8b5aa0f" width="600"/>
+<img src="https://github.com/user-attachments/assets/ba1746a6-86a8-4619-87bd-0a86c8b5aa0f" width="800"/>
 
 ## 🚧 Roadmap
 
