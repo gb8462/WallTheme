@@ -33,8 +33,6 @@ GUI version coming soon!
 
 ⚡ Lightweight, minimal, fast
 
-
-
 ## 🎨 Themes Preview
 
 ### AnimeGirl
