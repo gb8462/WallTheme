@@ -29,16 +29,6 @@ WOFI="$HOME/.config/wofi"
 HYPR="$HOME/.config/hypr"
 ALACRITTY="$HOME/.config/alacritty.toml"
 
-# Show theme menu
-echo "Please select a theme:"
-echo "
-Choices:
-  [1] Blues
-  [2] Ninomae Ina'nis
-  [3] Dark (Void)
-"
-read -p "Theme: " ThemeChoice
-
 # ======================
 # Function: Apply Theme
 # ======================
@@ -75,18 +65,36 @@ apply_theme() {
   echo -e "\n✅ Theme applied: $(basename "$THEME_DIR")"
 }
 
+CONFIG_DIR="$BASE_DIR/configs"
+themes=("$CONFIG_DIR"/*)
+
+# Show theme menu
+echo "Please select a theme:"
+for i in "${!themes[@]}"; do
+  theme_name=$(basename "${themes[$i]}")
+  echo "  [$((i+1))] $theme_name"
+done
+
+read -p "Theme: " ThemeChoice
+
 # =======================
 # Theme Selection Handler
 # =======================
 
+CONFIG_DIR="$BASE_DIR/configs"
+
 case "$ThemeChoice" in
-  1) apply_theme "$BASE_DIR/Blues" ;;
-  2) apply_theme "$BASE_DIR/Ina" ;;
-  3) apply_theme "$BASE_DIR/Void" ;;
-  *) echo -e "\n❌ Invalid input. Please enter 1, 2, or 3." ;;
+  1) apply_theme "$CONFIG_DIR/Blues" ;;
+  2) apply_theme "$CONFIG_DIR/Ina" ;;
+  3) apply_theme "$CONFIG_DIR/Void" ;;
+  *)
+    echo -e "\n❌ Invalid input."
+    tput sgr0
+    exit 1
+    ;;
 esac
 
-# Exit cleanly
+# Only reaches here if a valid theme was selected
 tput sgr0
 echo "🎉 Done switching theme!"
 exit 0
