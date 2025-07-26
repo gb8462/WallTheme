@@ -10,6 +10,19 @@ printf "\033c"
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 BASE_DIR="$SCRIPT_DIR"
 
+# Check dependencies
+for cmd in rsync hyprctl waybar hyprpaper wofi alacritty; do
+  if ! command -v "$cmd" &>/dev/null; then
+    echo "❌ Missing dependency: $cmd"
+    MISSING_DEPS=true
+  fi
+done
+
+if [ "$MISSING_DEPS" = true ]; then
+  echo "⚠️  Please install the missing dependencies above before running this script."
+  exit 1
+fi
+
 # Wallpaper paths
 WALLPAPER_SRC="$BASE_DIR/Wallpaper"
 WALLPAPER_DEST="/usr/share/wallpaper"
