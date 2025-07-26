@@ -1,3 +1,7 @@
+* {
+  background-color: transparent;
+}
+
 #entry {
    border-radius: 5px;
    padding: 5px;

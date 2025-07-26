@@ -1,7 +1,11 @@
+* {
+  background-color: transparent;
+}
+
 #entry {
    border-radius: 5px;
    padding: 5px;
-   color: #9eafff;
+   color: #e4e7f5;
    margin: 0px 4px 0px 4px;
 }
 
@@ -11,13 +15,14 @@
 }
 
 #entry:selected {
-   background-color: rgb(24, 76, 145);
-   color: #a9b8ff;
+   background-color: rgb(106, 148, 204);
+   color: #323f83;
    padding: 5px;
    outline-style: none;
 }
 
 #window {
+   color: #323f83;
    animation-name: fadeIn;
    animation-duration: 0.4s;
    background-color: rgb(5, 27, 58);
@@ -34,9 +39,11 @@
 }
 
 #inner-box {
-   border-radius: 10px;
+   background-color: rgb(14, 60, 119);
+   border-radius: 5px;
    margin: 5px;
-   padding-top: 5px;
+   padding-top: 15px;
+   padding-bottom: 15px;
    opacity: 0.8;
 }
 
