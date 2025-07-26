@@ -4,7 +4,7 @@
 # Wallpaper Theme Switcher Script
 # ================================
 
-clear
+printf "\033c"
 
 # Set base directory to script location
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
@@ -88,5 +88,5 @@ esac
 
 # Exit cleanly
 tput sgr0
-echo -e "\n🎉 Done switching theme!"
+echo "🎉 Done switching theme!"
 exit 0
