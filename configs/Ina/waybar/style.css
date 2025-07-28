@@ -2,7 +2,7 @@
     border: none;
     font-family: Font Awesome, Roboto, Arial, sans-serif;
     font-size: 11px;
-    color: #f1e7ff;
+    color: #ddc4ff;
     border-radius: 20px;
 }
 /*
@@ -26,18 +26,12 @@ window#waybar {
     background-color: rgb(46, 35, 92);
     margin: 2px 0 0 5px;
 }
+
 /*-----modules indv----*/
 #workspaces button {
-    padding: 1px 5px;
+    padding: 3px 5px;
     background-color:rgb(46, 35, 92);
-}
-#workspaces button:hover {
-    box-shadow: inherit;
-    background-color: rgb(46, 35, 92);
-}
-
-#workspaces button.focused {
-    background-color: rgb(46, 35, 92);
+    color: rgb(3, 7, 65);
 }
 
 #clock,
