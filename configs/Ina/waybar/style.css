@@ -2,7 +2,7 @@
     border: none;
     font-family: Font Awesome, Roboto, Arial, sans-serif;
     font-size: 11px;
-    color: #ddc4ff;
+    color: #cfb5f3;
     border-radius: 20px;
 }
 /*
@@ -29,9 +29,8 @@ window#waybar {
 
 /*-----modules indv----*/
 #workspaces button {
-    padding: 3px 5px;
-    background-color:rgb(46, 35, 92);
-    color: rgb(3, 7, 65);
+    padding: 1px 5px;
+
 }
 
 #clock,

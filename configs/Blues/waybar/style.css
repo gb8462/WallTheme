@@ -29,7 +29,6 @@ window#waybar {
 /*-----modules indv----*/
 #workspaces button {
     padding: 1px 5px;
-    background-color:rgb(5, 28, 58);
 }
 
 #clock,
