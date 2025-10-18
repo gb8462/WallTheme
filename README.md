@@ -2,6 +2,7 @@
 
 A personal theme switcher for Hyprland, built with Bash.  
 Automatically sets wallpapers, Waybar/Wofi themes, Alacritty config, and more.  
+
 GUI version coming soon!
 
 ## 🛠️ Installation
